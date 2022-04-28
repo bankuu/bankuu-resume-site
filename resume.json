@@ -1,0 +1,187 @@
+{
+  "basics": {
+    "name": "バンクー (BANKUU)",
+    "summary": "Over 8 years in software development, overseeing all aspects of the software development life cycle, from analysis mockup through implementation, deployment, and troubleshooting, I created a platform for iot to control washer machines in 600+ laundromats all over the country and built 3+ mobile applications in-store with over 10k+ active users.",
+    "label": "Nutchaitat Tantanasuwan",
+    "picture": "https://www.gravatar.com/avatar/f4d979271ae042b54e5f717a803abcf3?s=200",
+    "email": "ban.kuu@yahoo.com",
+    "phone": "(+66) 95-925-1704",
+    "location": {
+      "countryCode": "Thailand",
+      "region": "Bangkok"
+    },
+    "profiles": [
+        {
+          "network": "Github",
+          "username": "bankuu",
+          "url": "https://github.com/ban.kuu"
+        },
+        {
+          "network": "Instagram",
+          "username": "bankuu",
+          "url": "https://www.instagram.com/bankuu.gorutan"
+        }
+    ]
+  },
+  "work": [
+    {
+      "company": "T-DEV Co., Ltd.",
+      "position": "Co-Founder, R&D Initiator",
+      "website": "http://t-dev.co",
+      "startDate": "2018-08-01",
+      "endDate": "2022-05-01"
+    },
+    {
+      "company": "Bighead Co., Ltd.",
+      "position": "Mobile Developer",
+      "website": "http://dnn.bighead.co.th",
+      "startDate": "2016-06-01",
+      "endDate": "2018-02-04"
+    },
+    {
+      "company": "Pinperty Co., Ltd.",
+      "position": "System Engineer",
+      "website": "https://pinperty.com",
+      "startDate": "2015-04-01",
+      "endDate": "2016-04-01",
+      "summary": "Pinperty is a group of young passionate people who want to improve real estate search engine system in Thailand. We develop a proprietary map search system and modern real estate marketplace online tool to empower consumers with better tools, faster sites and right results. To optimise home searching experience linked with reliable and trustable source.",
+      "highlights": [
+        "Design DBS and Use Flexview (same materialized view) to optimized of TransData in MariaDB",
+        "Design InfoBase to keeping BigData in MongoDB",
+        "Build Sphinxsearch in Full-Text Search Engine",
+        "Used Light-weight Python framework and Deploy Olap server to Reporting applications on sites",
+        "Install and Maintenance Server in project",
+        "Develop Administrator Site to Control (Build with Django)",
+        "Create Glue Language in passing between process (Python or Bash)",
+        "Build WebSocket to realtime-process in applications (Crossbar.io)",
+        "Develop Mobile-Application using for Survey(Swift-ios)"
+      ]
+    },
+    {
+      "company": "UIH Co., Ltd.",
+      "position": ".NET Development",
+      "website": "http://www.uih.co.th",
+      "startDate": "2014-04-01",
+      "endDate": "2015-04-01",
+      "summary": "United Information Highway Company Limited (UIH) provides High-speed Data Communication Services via leased optical fiber networks nationwide. Our customers include State Enterprises, and both public and private organizations, that require online data and multimedia communications that can be linked to their branches in greater Bangkok and the provinces.",
+      "highlights": [
+        "Develop Backends Service Website to contact consumers (ASP.NET)",
+        "Develop E-Mobile Top-up with Handle slip printer (JAVA on Android)",
+        "Develop Web Applicion to Display Layer-Map on google maps to browser for Wiring network"
+      ]
+    },
+    {
+      "company": "Nysiis Solutions Co., Ltd.",
+      "position": ".NET Development",
+      "website": "http://www.nysiissolutions.com",
+      "startDate": "2012-02-01",
+      "endDate": "2014-01-01",
+      "highlights": [
+        "Develop SOAP WebService serve Web Applicion, Window Aplication in Department of Agriculture Project"
+      ]
+  }
+  ]
+  ,
+  "education": [
+    {
+      "institution": "Dhurakij Pundit University",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2008",
+      "endDate": "2012",
+      "gpa": "2.89"
+    }
+  ],
+  "awards": [
+    {
+      "title": "3TH runner-up in TDC 2011",
+      "date": "2011",
+      "awarder": "TESA Thailand",
+      "summary":"Develop cental process to revice data and send to target"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Language",
+      "level": "Master",
+      "keywords": [
+        "Golang",
+        "Python", 
+        "C#",
+        "Swift",
+        "SQL",
+        "JS",
+        "TS",
+        "Java",
+        "Kotlin"
+      ]
+    },
+    {
+      "name": "Web & API Framework",
+      "level": "Advanced",
+      "keywords": [
+        "Angular",
+        "Django",
+        "Falcon",
+        "Flask",
+        "Nuxt.js",
+        "Svelte",   
+        "Flutter"
+      ]
+    },
+    {
+      "name": "DBS Design & Analyst",
+      "level": "Advanced",
+      "keywords": [
+        "RDBMS",
+        "TSDB",
+        "NoSQL",
+        "Redis",
+        "Memcache"
+      ]
+    },
+    {
+      "name": "Mobile Application",
+      "level": "Advanced",
+      "keywords": [
+        "Android(Java)",
+        "iOS(Swift)",
+        "Xmarin",
+        "Flutter"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Thai",
+      "fluency": "Native speaker"
+    },
+    {
+        "language": "English",
+        "fluency": "beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Gaming",
+      "keywords": [
+        "Steam",
+        "Origin",
+        "Battle.Net",
+        "Squ.Enix"
+      ]
+    },
+    {
+      "name": "Sport",
+      "keywords": [
+        "Basketball","Swimming"
+      ]
+    },
+    {
+      "name": "Movie",
+      "keywords": [
+        "Sci-Fi","Horror","Comedy"
+      ]
+    }
+  ]
+}

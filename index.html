@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+  <title>BANKUU : Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <script src="https://momentjs.com/downloads/moment.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="autobars.js" type="text/javascript"></script>
+  <script src="theme.hbs" type="text/x-handlebars-template"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(document).autoBars(function() {
+        $.getJSON("resume.json", function(json) {
+          var data = { "resume" : json};
+          var $html = $.handlebarTemplates['theme'](data);
+          $('body').append($html);
+        })
+        .fail(function(jqxhr, textStatus, error) {
+           var err = textStatus + ", " + error;
+           console.log( "Request Failed: " + err );
+         });
+      });
+  });
+
+  /* HANDLEBARS HELPERS */
+   Handlebars.registerHelper('paragraphSplit', function(plaintext) {
+       var output = '';
+       var lines = plaintext instanceof Array ? plaintext.join('').split(/\r\n|\r|\n/g) : plaintext.split(/\r\n|\r|\n/g);
+       var i = 0;
+
+       while(i < lines.length) {
+           if(lines[i]) {
+               output += '<p>' + lines[i] + '</p>';
+           }
+           i += 1;
+       }
+
+       return new Handlebars.SafeString(output);
+   });
+
+   Handlebars.registerHelper('toLowerCase', function(str) {
+     return str.toLowerCase();
+   });
+
+   Handlebars.registerHelper('spaceToDash', function(str) {
+     return str.replace(/\s/g, '-').toLowerCase();
+   });
+
+   Handlebars.registerHelper('MY', function(date) {
+       return moment(date.toString(), ['YYYY-MM-DD']).format('MMMM YYYY');
+   });
+
+   Handlebars.registerHelper('Y', function(date) {
+       return moment(date.toString(), ['YYYY-MM-DD']).format('YYYY');
+   });
+
+   Handlebars.registerHelper('DMY', function(date) {
+       return moment(date.toString(), ['YYYY-MM-DD']).format('D MMMM YYYY');
+   });
+
+   Handlebars.registerHelper('birthData', function(birth) {
+       var out = [];
+       if (birth && Object.keys(birth).length) {
+           out.push('<div> Born in ');
+           out.push(birth.place);
+
+           if (birth.place && birth.state) {
+               out.push(', ');
+           }
+
+           out.push(birth.state);
+
+           var year = birth.date &&
+               moment(birth.date.toString(), ['YYYY-MM-DD']).format('YYYY');
+
+           if (year && (birth.place || birth.state)) {
+               out.push(' in ');
+           }
+           out.push(year);
+           out.push('</div>');
+       }
+
+       return new Handlebars.SafeString(out.join(''));
+   });
+
+
+
+
+  </script>
+</head>
+<body>
+</body>
