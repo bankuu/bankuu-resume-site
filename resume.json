@@ -6,6 +6,7 @@
     "picture": "https://www.gravatar.com/avatar/f4d979271ae042b54e5f717a803abcf3?s=200",
     "email": "ban.kuu@yahoo.com",
     "phone": "(+66) 95-925-1704",
+    "website": "https://bankuu.info",
     "location": {
       "countryCode": "Thailand",
       "region": "Bangkok"
@@ -14,13 +15,13 @@
         {
           "network": "Github",
           "username": "bankuu",
-          "url": "https://github.com/ban.kuu"
+          "url": "https://github.com/bankuu"
         },
         {
           "network": "Instagram",
           "username": "bankuu",
           "url": "https://www.instagram.com/bankuu.gorutan"
-        }
+        } 
     ]
   },
   "work": [
@@ -42,10 +43,10 @@
     {
       "company": "Bighead Co., Ltd.",
       "position": "Mobile Developer",
-      "website": "http://dnn.bighead.co.th",
+      "website": "http://bighead.co.th",
       "startDate": "2016-06-01",
       "endDate": "2018-02-04",
-      "summary": "Some project in implement",
+      "summary": "Big Head We are experts in website management system development. And we have not stopped developing continuously. To bring technology to serve the best benefits to our customers. You will be assured that We will research and develop this technology for all of our customers. Our system currently runs on .NET technology version 1.1 and a stable database like Microsoft SQL 2000.\n\nSome project in implement",
       "highlights": [
         "MTL Smile Service - Native Mobile Application (Android & iOS)",
         "Toyata T-Mex & Privilege - Native Mobile Application (Android & iOS)",
@@ -127,7 +128,8 @@
         "JS",
         "TS",
         "Java",
-        "Kotlin"
+        "Kotlin",
+        "Dart"
       ]
     },
     {
