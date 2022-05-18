@@ -30,13 +30,13 @@
       "website": "http://t-dev.co",
       "startDate": "2018-08-01",
       "endDate": "2022-05-01",
-      "summary": "We founded T-DEV Co., Ltd. out of a pure passion for people. Our goals, ambitions and inspirations have come together to form a truly amazing company that all of us are proud to be a part of. Since opening in 2018, we have become masters of our craft. We go above and beyond to ensure you’re satisfied and will work with us again. Explore the rest of our site to learn more about what we offer, and get in touch with any questions.\n\n Some project in contribute",
+      "summary": "We founded T-DEV Co., Ltd. out of a pure passion for people. Our goals, ambitions and inspirations have come together to form a truly amazing company that all of us are proud to be a part of. Since opening in 2018, we have become masters of our craft. We go above and beyond to ensure you’re satisfied and will work with us again. Explore the rest of our site to learn more about what we offer, and get in touch with any questions.\n\nSome project in architect and implement",
       "highlights": [
-        "Otteri Platform - Architect & Implement Mobile Application (Flutter), API Service (Python[Django]) : http://www.otteriwashdry.com",
-        "LC Platfrom (for Otteri Franchisee) - Architect & Implement Web Application (Nuxt.js), Backend Service (Golang[Echo])",
-        "Internal Payment Gateway (for Otteri) - Architect & Payment API+gRPC Gateway Service (Golang[Gofiber])",
-        "IoT Box Service - Architect & Implement API Service (Python[Django])",
-        "Reserve Tray Service - Architect & Implement Web Application (Angular), API Service (Python[Django])"
+        "Otteri Platform - Mobile Application (Flutter), API Service (Python[Django]) : http://www.otteriwashdry.com",
+        "LC Platfrom (for Otteri Franchisee) - Web Application (Nuxt.js), Backend Service (Golang[Echo])",
+        "Internal Payment Gateway (for Otteri) - API and gRPC Gateway Service (Golang[Gofiber])",
+        "IoT Box Service - API Service (Python[Django])",
+        "Reserve Tray Service - Web Application (Angular), API Service (Python[Django])"
       ]
     },
     {
@@ -45,11 +45,11 @@
       "website": "http://dnn.bighead.co.th",
       "startDate": "2016-06-01",
       "endDate": "2018-02-04",
-      "summary": "Some project in contribute",
+      "summary": "Some project in implement",
       "highlights": [
-        "MTL Smile Service - Implement Native Mobile Application (Android & iOS)",
-        "Toyata T-Mex & Privilege - Implement Native Mobile Application (Android & iOS)",
-        "Meetang - Implement Hybrid Mobile Application (Xmarin) : https://www.metang.app/th-th/"
+        "MTL Smile Service - Native Mobile Application (Android & iOS)",
+        "Toyata T-Mex & Privilege - Native Mobile Application (Android & iOS)",
+        "Meetang - Hybrid Mobile Application (Xmarin) : https://www.metang.app/th-th/"
       ]
     },
     {
